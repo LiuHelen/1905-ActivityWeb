@@ -2,6 +2,8 @@ $(document).ready(function () {
 
     if($(window).width()>750){
 
+        $('.ImgItemBox').addClass('aaa');
+
         var wrapIndex = 0;
         var contentLength = $('.PageBox').length;
         var canMove = true;
@@ -28,15 +30,6 @@ $(document).ready(function () {
             $('.ml2, .ml3, .ml4, .ml6').each(function(){
                 $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
             });
-            // $('.ml3').each(function(){
-            //     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-            // });
-            // $('.ml4').each(function(){
-            //     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-            // });
-            // $('.ml6').each(function(){
-            //     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-            // });
 
             anime.timeline({loop: false})
             .add({
