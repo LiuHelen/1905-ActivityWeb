@@ -44,11 +44,18 @@ body {
                 h2 {
                     margin-bottom: 25px;
                 }
+                .ml2 {
+                    font-weight: 900;
+                }
+                .ml2 .letter {
+                    display: inline-block;
+                    line-height: 1em;
+                }
             }
             .box02 {
                 background:rgba(255,255,255,.5);
-                // height: 700px;
             }
+            
         }
         .PBi-03 {
             display: flex;
@@ -61,12 +68,17 @@ body {
             }
             .box01 {
                 background:rgba(255,255,255,.8);
-                // height: 100px;
                 margin-bottom: 15px;
+                .ml3 {
+                    font-weight: 900;
+                }
+                .ml3 .letter {
+                    display: inline-block;
+                    line-height: 1em;
+                }
             }
             .box02 {
                 background:rgba(255,255,255,.5);
-                // height: 600px;
                 margin-bottom: 15px;
                 img {
                     width: 100%;
@@ -74,7 +86,6 @@ body {
             }
             .box03 {
                 background:rgba(255,255,255,.8);
-                // height: 100px;
             }
         }
         .PBi-04 {
@@ -92,11 +103,16 @@ body {
                 h2,h3 {
                     margin-bottom: 25px;
                 }
-                // height: 750px;
+                .ml4 {
+                    font-weight: 900;
+                }
+                .ml4 .letter {
+                    display: inline-block;
+                    line-height: 1em;
+                }
             }
             .box02 {
                 background:rgba(255,255,255,.5);
-                // height: 750px;
                 width: 800px;
                 img {
                     width: 100%;
@@ -164,17 +180,22 @@ body {
             }
             .box01 {
                 background:rgba(255,255,255,.8);
-                // height: 750px;
                 h2 {
                     margin-bottom: 25px;
                 }
                 .txt {
                     margin-bottom: 10px;
                 }
+                .ml6 {
+                    font-weight: 900;
+                }
+                .ml6 .letter {
+                    display: inline-block;
+                    line-height: 1em;
+                }
             }
             .box02 {
                 background:rgba(255,255,255,.5);
-                // height: 750px;
                 flex: 2;
             }
         }
