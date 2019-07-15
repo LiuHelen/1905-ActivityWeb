@@ -4,6 +4,8 @@ $(document).ready(function () {
 
     if ($(window).width() > 750) {
 
+        $('.ImgItemBox').addClass('aaa');
+
         var wrapIndex = 0;
         var contentLength = $('.PageBox').length;
         var canMove = true;
@@ -27,6 +29,59 @@ $(document).ready(function () {
 
             $('.PageBox').removeClass('animation');
             $('.PageBox').eq(index).addClass('animation');
+
+            // Wrap every letter in a span - PBi-02 h2
+            $('.ml2, .ml3, .ml4, .ml6').each(function () {
+                $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+            });
+
+            anime.timeline({ loop: false }).add({
+                targets: '.ml2 .letter',
+                scale: [4, 1],
+                opacity: [0, 1],
+                translateZ: 0,
+                easing: "easeOutExpo",
+                duration: 950,
+                delay: function delay(el, i) {
+                    return 100 * i;
+                }
+            });
+
+            anime.timeline({ loop: false }).add({
+                targets: '.ml3 .letter',
+                scale: [4, 1],
+                opacity: [0, 1],
+                translateZ: 0,
+                easing: "easeOutExpo",
+                duration: 950,
+                delay: function delay(el, i) {
+                    return 100 * i;
+                }
+            });
+
+            anime.timeline({ loop: false }).add({
+                targets: '.ml4 .letter',
+                scale: [4, 1],
+                opacity: [0, 1],
+                translateZ: 0,
+                easing: "easeOutExpo",
+                duration: 950,
+                delay: function delay(el, i) {
+                    return 100 * i;
+                }
+            });
+
+            anime.timeline({ loop: false }).add({
+                targets: '.ml6 .letter',
+                scale: [4, 1],
+                opacity: [0, 1],
+                translateZ: 0,
+                easing: "easeOutExpo",
+                duration: 950,
+                delay: function delay(el, i) {
+                    return 100 * i;
+                }
+            });
 
             canMove = false;
 
