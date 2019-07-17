@@ -36,9 +36,7 @@ body {
                 flex-direction: column;
             }
             .box01 {
-                // flex: 1;
                 img {
-                    // width: 100%;
                     max-width: 240%;
                     height: auto;
                 }
@@ -77,19 +75,16 @@ body {
                             opacity: 1;
                         }
                         .pg01-part-1 {
-                            transform: translate(627px, 821px);
+                            transform: translate(620px, 740px);
                         }
                         .pg01-part-2 {
-                            // transform: translate(456px, 398px);
-                            transform: translate(230px, 685px);
+                            transform: translate(230px, 600px);
                         }
                         .pg01-part-3 {
-                            // transform: translate(463px, 125px);
-                            transform: translate(237px, 409px);
+                            transform: translate(220px, 340px);
                         }
                         .pg01-part-4 {
-                            // transform: translate(-1px, -310px);
-                            transform: translate(-230px, -26px);
+                            transform: translate(-230px, -40px);
                         }
                     }
                 }
@@ -111,9 +106,10 @@ body {
                 .txt {
                     font-size: 38px;
                 }
-                .MBox {
-                    display: none;
-                }
+                
+            }
+            .MBox {
+                display: none;
             }
         }
         .PBi-02 {
@@ -203,7 +199,7 @@ body {
             .box {
                 display: flex;
                 justify-content: center;
-                align-items: center;
+                align-items: end;
                 flex-direction: column;
             }
             .box01 {
@@ -330,6 +326,7 @@ body {
         &:nth-child(1) {
             background-color: #0c1323;
             background-image: url(../images/pg01/Imgbg.png);
+            background-position: left bottom;
         }
         &:nth-child(2) {
             background: url(../images/pg06/bg.jpg) top center;
@@ -528,6 +525,11 @@ body {
                     }
                 }
             }
+            .PBi-03 {
+                .box02 {
+                    margin: 30px 0 10px;
+                }
+            }
             .PBi-01, .PBi-03 {
                 .PCBox {
                     display: none;
@@ -547,22 +549,34 @@ body {
                     }
                 }
             }
+            .PBi-06 {
+                .box01 {
+                    h2 {
+                        font-size: 77/750*100vw;
+                        margin: 30px 0 30px;
+                    }
+                    p:nth-child(5) {
+                        margin-top: 20px;
+                        font-size: 50/750*100vw;
+                    }
+                }
+            }
             &:nth-child(1) {
                 background-color: #0c1323;
                 background-image: none;
             }
         }
         h2 {
-            font-size: 54/750*100vw;
+            font-size: 50/750*100vw;
             line-height: 60/750*100vw;
         }
         h3 {
-            font-size: 46/750*100vw;
+            font-size: 40/750*100vw;
             font-weight: 500;
         }
         .txt {
-            font-size: 36/750*100vw;
-            line-height: 48/750*100vw;
+            font-size: 50/750*100vw;
+            line-height: 70/750*100vw;
         }
     }
 }
