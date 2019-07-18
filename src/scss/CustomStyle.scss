@@ -5,6 +5,9 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    // background-image: linear-gradient(to right, rgb(48, 48, 48) 0%, #0B1013 100%);
+    background-color: #222828;
+    background: url(../images/pg06/bg02.png) bottom center;
     .ContentBox {
         height: 100%;
         transition: transform .5s;
@@ -323,27 +326,28 @@ body {
                 }
             }
         }
-        &:nth-child(1) {
-            background-color: #0c1323;
+        &:nth-child(1) {    
             background-image: url(../images/pg01/Imgbg.png);
             background-position: left bottom;
+            background-color: rgba(1,1,1,.2);
         }
         &:nth-child(2) {
-            background: url(../images/pg06/bg.jpg) top center;
+            background: linear-gradient(-90deg,transparent 0%,#f6d365 0.5%,transparent 0%);
+            // background: linear-gradient(45deg,#f6d365 2%,transparent 0%);
+            /*三角*/
         }
         &:nth-child(3) {
-            background: url(../images/pg06/bg.jpg) bottom center;
-            // background-color: #0c1323;
+            background: linear-gradient(90deg,transparent 0%,#f6d365 0.5%,transparent 0%);
         }
         &:nth-child(4) {
-            background: url(../images/pg06/bg.jpg) top center;
+            background: linear-gradient(-90deg,transparent 0%,#f6d365 0.5%,transparent 0%);
         }
         &:nth-child(5) {
-            background-color: #0c1323;
-            background: url(../images/pg06/bg.jpg) bottom center;
+            background: linear-gradient(90deg,transparent 0%,#f6d365 0.5%,transparent 0%);
         }
         &:nth-child(6) {
-            background: url(../images/pg06/bg.jpg) top left;
+            background-color: rgba(1,1,1,.2);
+            background: linear-gradient(45deg,#f6d365 2%,transparent 0%),linear-gradient(-130deg,#f6d365 2%,transparent 0%);
         }
     }
     h2 {

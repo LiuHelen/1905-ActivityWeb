@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
 }
@@ -6,6 +7,8 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  background-color: #222828;
+  background: url(../images/pg06/bg02.png) bottom center;
 }
 
 .wrap .ContentBox {
@@ -452,30 +455,31 @@ body {
 }
 
 .wrap section.PageBox:nth-child(1) {
-  background-color: #0c1323;
   background-image: url(../images/pg01/Imgbg.png);
   background-position: left bottom;
+  background-color: rgba(1, 1, 1, 0.2);
 }
 
 .wrap section.PageBox:nth-child(2) {
-  background: url(../images/pg06/bg.jpg) top center;
+  background: linear-gradient(-90deg, transparent 0%, #f6d365 0.5%, transparent 0%);
+  /*三角*/
 }
 
 .wrap section.PageBox:nth-child(3) {
-  background: url(../images/pg06/bg.jpg) bottom center;
+  background: linear-gradient(90deg, transparent 0%, #f6d365 0.5%, transparent 0%);
 }
 
 .wrap section.PageBox:nth-child(4) {
-  background: url(../images/pg06/bg.jpg) top center;
+  background: linear-gradient(-90deg, transparent 0%, #f6d365 0.5%, transparent 0%);
 }
 
 .wrap section.PageBox:nth-child(5) {
-  background-color: #0c1323;
-  background: url(../images/pg06/bg.jpg) bottom center;
+  background: linear-gradient(90deg, transparent 0%, #f6d365 0.5%, transparent 0%);
 }
 
 .wrap section.PageBox:nth-child(6) {
-  background: url(../images/pg06/bg.jpg) top left;
+  background-color: rgba(1, 1, 1, 0.2);
+  background: linear-gradient(45deg, #f6d365 2%, transparent 0%), linear-gradient(-130deg, #f6d365 2%, transparent 0%);
 }
 
 .wrap h2 {
