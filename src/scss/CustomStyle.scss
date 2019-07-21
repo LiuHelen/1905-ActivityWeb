@@ -43,7 +43,7 @@ body {
                     max-width: 240%;
                     height: auto;
                 }
-                
+
                 .ImgItemBox {
                     .item {
                         transition-timing-function: ease;
@@ -109,7 +109,7 @@ body {
                 .txt {
                     font-size: 38px;
                 }
-                
+
             }
             .MBox {
                 display: none;
@@ -132,7 +132,7 @@ body {
                     margin-bottom: 25px;
                 }
                 p {
-                    margin-bottom: 15px;  
+                    margin-bottom: 15px;
                 }
                 .ml2 {
                     font-weight: 900;
@@ -147,7 +147,7 @@ body {
                     margin-top: 15px;
                 }
             }
-            
+
         }
         .PBi-03 {
             display: flex;
@@ -326,7 +326,7 @@ body {
                 }
             }
         }
-        &:nth-child(1) {    
+        &:nth-child(1) {
             background-image: url(../images/pg01/Imgbg.png);
             background-position: left bottom;
             background-color: rgba(1,1,1,.2);
@@ -571,16 +571,19 @@ body {
             }
         }
         h2 {
-            font-size: 50/750*100vw;
-            line-height: 60/750*100vw;
+            font-size: 66/750*100vw;
+            line-height: 78/750*100vw;
         }
         h3 {
             font-size: 40/750*100vw;
             font-weight: 500;
         }
         .txt {
-            font-size: 50/750*100vw;
-            line-height: 70/750*100vw;
+            font-size: 46/750*100vw;
+            line-height: 54/750*100vw;
+        }
+        .txt-b {
+            font-size: 44/750*100vw;
         }
     }
 }

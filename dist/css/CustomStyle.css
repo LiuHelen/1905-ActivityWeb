@@ -726,15 +726,18 @@ body {
     background-image: none;
   }
   .wrap h2 {
-    font-size: 6.66667vw;
-    line-height: 8vw;
+    font-size: 8.8vw;
+    line-height: 10.4vw;
   }
   .wrap h3 {
     font-size: 5.33333vw;
     font-weight: 500;
   }
   .wrap .txt {
-    font-size: 6.66667vw;
-    line-height: 9.33333vw;
+    font-size: 6.13333vw;
+    line-height: 7.2vw;
+  }
+  .wrap .txt-b {
+    font-size: 5.86667vw;
   }
 }
