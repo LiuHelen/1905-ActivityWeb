@@ -467,6 +467,7 @@ body {
 
 .wrap section.PageBox:nth-child(3) {
   background: linear-gradient(90deg, transparent 0%, #f6d365 0.5%, transparent 0%);
+  background-color: rgba(59, 50, 50, 0.2);
 }
 
 .wrap section.PageBox:nth-child(4) {
@@ -475,6 +476,7 @@ body {
 
 .wrap section.PageBox:nth-child(5) {
   background: linear-gradient(90deg, transparent 0%, #f6d365 0.5%, transparent 0%);
+  background-color: rgba(59, 50, 50, 0.2);
 }
 
 .wrap section.PageBox:nth-child(6) {
